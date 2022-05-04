@@ -1,0 +1,124 @@
+:root{
+    --primario: #1A5276;
+    --primarioOscuro: #2471A3;
+    --secundario: #ffce00;
+    --seguncarioOscuro: rgb(233,287,2);
+    --blanco:#fff;
+    --negro:#000;
+    --fuentePrincipal:'Staatliches', cursive;
+}
+a{
+    
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /*Globales*/
+  body{
+     
+      font-size: 1.6rem;
+      line-height: 1.5;
+   background: linear-gradient(90deg, rgba(5,6,13,1) 0%, rgba(31,59,105,1) 100%);
+  }
+.navegacion{
+    display:flex;
+     justify-content: center;
+     gap:2rem;
+    background-color: var(--primarioOscuro);
+}
+.navegacion__enlace{
+      font-family: var(--fuentePrincipal);
+      color: var(--blanco);
+      font-size: 3rem;
+      padding: 1rem 0;
+      text-decoration: none;
+     
+  }
+  
+  .navegacion__enlace:hover{
+    color: var(--secundario);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--primario);
+}
+
+.header__logo{
+   
+        padding: 3rem;
+}
+
+.btnpago{
+    width: 100%;
+    font-size: 20px;
+    background-color: #9FA065;
+    
+    color:white;
+    font-weight: 500;
+    border:none;
+    font-size: 20px;
+    outline: none;
+    
+}
+
+.btn:hover{
+    
+    background-color: #891E12;
+    color:white;
+    
+}
+
+.h5{
+    width: 60%;
+}
+
+
+.contenedor_entrega{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.contenedor_entrega label{
+    font-size:20px;
+}
+
+.contenedor_entrega input{
+     font-size:20px;
+     
+}
+
+
+.form-select{
+    font-size:20px;
+    
+}
+
+
+.btn_enviar2{
+  
+    background-color: #1364D8;
+    width: 50%;
+    color:white;
+    font-size: 20px;
+    margin-left:  25%;
+    margin-top: 3%;
+    margin:none;
+    
+}
+
+.btn_enviar2:hover{
+  
+    background-color: #14A1ED;
+    color:white;
+   
+    
+}

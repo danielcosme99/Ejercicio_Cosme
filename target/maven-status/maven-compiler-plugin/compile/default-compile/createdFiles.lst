@@ -1,0 +1,15 @@
+modelo\bean\Usuario.class
+controlador\articulo\LoginServlet.class
+modelo\bean\Producto.class
+modelo\dao\ProductoDAO.class
+accesoBD\Conexion.class
+mainclass\main.class
+modelo\dao\ArticuloDAO.class
+modelo\bean\Articulo.class
+modelo\dao\CarritoDAO.class
+controlador\articulo\ArticuloServlet.class
+modelo\dao\TallaDAO.class
+modelo\dao\UsuarioDAO.class
+controlador\articulo\CarritoServlet.class
+modelo\bean\Talla.class
+modelo\bean\Carrito.class
